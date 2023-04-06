@@ -1,5 +1,6 @@
 <?php
-function print_variable()
+function print_variable($var = "")
 {
-    echo "variable = [val]” où ”[val]";
+    echo "variable = $var";
 }
+print_variable("Baptiste");
