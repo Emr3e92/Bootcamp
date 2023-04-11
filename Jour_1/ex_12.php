@@ -1,5 +1,5 @@
 <?php
-function my_increment($var)
+function my_increment(&$var)
 {
     $var++;
 }
