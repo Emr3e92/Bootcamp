@@ -1,9 +1,7 @@
 <?php
 function print_array_with_key(array $my_array)
 {
-    // $value = "test";
-    // $key = 5;
-    echo $my_array = ["$value : $key\n"];
+    foreach ($my_array as $key => $value) {
+        echo ["$value : $key\n"];
+    }
 }
-
-print_array_with_key($my_array);
